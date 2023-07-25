@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="nz.ac.auckland.se281.MainTest" time="0.289" tests="108" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment3/assignment-3-CrystalN23/target/test-classes:/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment3/assignment-3-CrystalN23/target/classes:/Users/ngocngo/.m2/repository/com/paypal/digraph/digraph-parser/1.0/digraph-parser-1.0.jar:/Users/ngocngo/.m2/repository/org/antlr/antlr4-runtime/4.2/antlr4-runtime-4.2.jar:/Users/ngocngo/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar:/Users/ngocngo/.m2/repository/org/antlr/antlr4-annotations/4.2/antlr4-annotations-4.2.jar:/Users/ngocngo/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/ngocngo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment3/assignment-3-CrystalN23/libs/codestyle.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="VN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment3/assignment-3-CrystalN23/target/surefire/surefirebooter8871014091458902130.jar /Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment3/assignment-3-CrystalN23/target/surefire 2023-06-05T13-35-47_290-jvmRun1 surefire7333960840538076659tmp surefire_014307717924395612817tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment3/assignment-3-CrystalN23/target/test-classes:/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment3/assignment-3-CrystalN23/target/classes:/Users/ngocngo/.m2/repository/com/paypal/digraph/digraph-parser/1.0/digraph-parser-1.0.jar:/Users/ngocngo/.m2/repository/org/antlr/antlr4-runtime/4.2/antlr4-runtime-4.2.jar:/Users/ngocngo/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar:/Users/ngocngo/.m2/repository/org/antlr/antlr4-annotations/4.2/antlr4-annotations-4.2.jar:/Users/ngocngo/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/ngocngo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment3/assignment-3-CrystalN23/libs/codestyle.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ngocngo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment3/assignment-3-CrystalN23"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment3/assignment-3-CrystalN23/target/surefire/surefirebooter8871014091458902130.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
+    <property name="user.name" value="ngocngo"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/ngocngo/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/nk/422svwhs3ddgbc1vxny6vpm00000gn/T/"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment3/assignment-3-CrystalN23"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ngocngo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="T1_B_antisymmetry" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.032"/>
+  <testcase name="T1_C_reflexivity" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_C_roots" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.004"/>
+  <testcase name="T1_B_reflexivity" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.001"/>
+  <testcase name="T1_B_equivalence_class_1" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_A_antisymmetry" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.004"/>
+  <testcase name="T1_C_equivalence_class_0" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.003"/>
+  <testcase name="T1_C_equivalence_class_1" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.004"/>
+  <testcase name="T1_A_reflexivity" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.005"/>
+  <testcase name="T1_C_transitivity" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.011"/>
+  <testcase name="T1_B_transitivity" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.005"/>
+  <testcase name="T1_A_transitivity" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.004"/>
+  <testcase name="T1_A_roots" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.001"/>
+  <testcase name="T1_C_equivalence" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.004"/>
+  <testcase name="T1_C_symmetry" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.003"/>
+  <testcase name="T1_B_equivalence" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.003"/>
+  <testcase name="T1_B_roots" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_B_symmetry" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.001"/>
+  <testcase name="T1_C_antisymmetry" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.003"/>
+  <testcase name="T1_A_equivalence" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.006"/>
+  <testcase name="T1_A_symmetry" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.003"/>
+  <testcase name="T2_B_iterative_BFS" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.003"/>
+  <testcase name="T2_B_iterative_DFS" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_C_iterative_BFS" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_C_iterative_DFS" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_A_iterative_BFS" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_A_iterative_DFS" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.004"/>
+  <testcase name="T3_A_recursive_BFS" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.002"/>
+  <testcase name="T3_A_recursive_DFS" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.001"/>
+  <testcase name="T3_B_recursive_BFS" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.002"/>
+  <testcase name="T3_B_recursive_DFS" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.001"/>
+  <testcase name="T3_C_recursive_BFS" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.003"/>
+  <testcase name="T3_C_recursive_DFS" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.001"/>
+  <testcase name="TY_01_S_check_roots" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_O_equivalence" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_03_Q_recursive_BFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_P_transitivity" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_H_equivalence_class_1" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_03_F_IDFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.004"/>
+  <testcase name="TY_N_equivalence" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.005"/>
+  <testcase name="TY_I_equivalence_class_0" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.005"/>
+  <testcase name="TY_03_S_RBFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_J_equivalence_class_0" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_O_transitivity" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.004"/>
+  <testcase name="TY_08_T_RDFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.006"/>
+  <testcase name="TY_P_reflexivity" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.003"/>
+  <testcase name="TY_01_F_IBFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.003"/>
+  <testcase name="TY_N_transitivity" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_H_roots" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_O_reflexivity" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_01_Q_iterative_BFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_N_equivalence_class_1" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.003"/>
+  <testcase name="TY_J_antisymmetry" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_04_Q_recursive_DFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_06_T_RBFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_J_equivalence" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_N_reflexivity" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_03_R_recursive_BFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="G_TXT_iterative_BFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="G_TXT_iterative_DFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_O_equivalence_class_0" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_I_equivalence" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_P_equivalence_class_0" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_04_F_RDFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="G_TXT_recursive_BFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="G_TXT_recursive_DFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_I_antisymmetry" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_P_symmetry" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_I_roots" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_H_equivalence" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_O_symmetry" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_10_U_RBFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_N_roots" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_04_S_IDFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_N_symmetry" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.005"/>
+  <testcase name="TY_H_antisymmetry" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="F_TXT_iterative_BFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="F_TXT_iterative_DFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.003"/>
+  <testcase name="TY_09_U_IBFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_09_U_RDFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_P_antisymmetry" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_02_Q_iterative_DFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_J_reflexivity" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_02_F_RBFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="F_TXT_recursive_BFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.005"/>
+  <testcase name="F_TXT_recursive_DFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_01_R_iterative_BFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_J_roots" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_04_R_recursive_DFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_I_reflexivity" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_O_roots" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_02_S_IBFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_J_symmetry" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_J_transitivity" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_O_antisymmetry" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_07_T_IDFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_H_reflexivity" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_I_symmetry" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_H_symmetry" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_I_transitivity" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_N_antisymmetry" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_11_U_IDFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_P_roots" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_05_S_RDFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_P_equivalence" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_05_T_IBFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_H_transitivity" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_02_R_iterative_DFS" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+</testsuite>
